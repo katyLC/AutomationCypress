@@ -17,6 +17,7 @@ export class LoginPage {
         cy.contains(this.loginButton).click();
     };
 
+    // holas
     login(usuario, contraseña) {
         this.escribirUsuario(usuario);
         this.escribirContraseña(contraseña);
